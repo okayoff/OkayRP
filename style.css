@@ -1,0 +1,211 @@
+body {
+    background-color: white;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+}
+.navbar-main-text-decor1{
+    text-align: center;
+}
+.navbar-main-text-decor2{
+    text-align: center;
+    padding-right: 10px;
+    text-align: center;
+}
+.nav-main{
+    background-color: white;
+    color: white;
+}
+.nav-brand-text{
+    color: black;
+    font-family: 'Londrina Solid', cursive;
+    padding-left: 25px;
+    font-size: 1.7rem;
+}
+.text-nav{
+    color: black;
+    font-family: 'Londrina Solid', cursive;
+    text-decoration: none;
+    padding-right: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.text-nav:hover{
+    color: red;
+    font-family: 'Londrina Solid', cursive;
+    text-decoration: none;
+    padding-right: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.text-nav-active{
+    color: red;
+    font-family: 'Londrina Solid', cursive;
+    text-decoration: none;
+    padding-right: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.text-nav-active:hover{
+    color: red;
+    font-family: 'Londrina Solid', cursive;
+    text-decoration: none;
+    padding-right: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.div-lets{
+    position: absolute;
+    padding-left: 75%;
+    top: 50%;
+    width: 100%;
+    color: white;
+    font-family: 'Londrina Solid', cursive;
+    z-index: 10;
+    font-size: 3rem;
+}
+.a-lets{
+    animation-name: anim;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+}
+@keyframes anim{
+    0% {
+        color: red;
+    }
+    25% {
+        color: white;
+    }
+    50% {
+        color: red;
+    }
+    75% {
+        color: white;
+    }
+    100%{
+        color: red;
+    }
+}
+.bg-img{
+    background-image: url(./img/indeximg.png);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.p-text-obj{
+    font-family: 'Londrina Solid', cursive;
+    color: red;
+    font-size: 3rem;
+    text-align: center;
+}
+.p-main-text{
+    font-family: 'Londrina Solid', cursive;
+    color: black;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.marg-p-20{
+    margin-top: 50px;
+}
+.obj-shop{
+    font-family: 'Londrina Solid', cursive;
+    color: red;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 80px;
+}
+.text-obj-shop{
+    font-family: 'Londrina Solid', cursive;
+    color: red;
+    font-size: 1rem;
+    text-align: center;
+} 
+.pack-shop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 28.5vh;
+    min-width: 60vh;
+    background: rgba(0, 0, 0, .035);
+    margin: 2vh;
+    position: relative;
+    overflow: hidden;
+    border-radius: 2vh;
+}
+
+.game-pack{
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+}
+.game-pack-text{
+    font-size: 1.2rem;
+    padding: 0;
+    margin: 0;
+}
+.buy{    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1vh;
+}
+.buy-pack{
+    outline: none;
+    border: none;
+    background: red;
+    display: flex;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    border-radius: 1vh;
+    color: white;
+    height: 30px;
+}
+
+.number-help{
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Londrina Solid', cursive;
+    color: red;
+}
+.text-help{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Londrina Solid', cursive;
+    color: red;
+}
+.help-but{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25.5vh;
+    min-width: 60vh;
+    background: rgba(0, 0, 0, .035);
+    margin: 2vh;
+    position: relative;
+    overflow: hidden;
+    border-radius: 2vh;
+}
+.text-help-min{
+    text-align: center;
+    font-size: 1rem;
+}
+.text-min{
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.mar-bot{
+    margin-bottom: 50px;
+}
